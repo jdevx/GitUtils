@@ -3,20 +3,36 @@ Helpful cheat sheat for git commands
 
 ## Terminal Commands
 Switch to a new branch: 
-`git checkout <branch name>`  
 
-Create a new branch (feature branch): 
-`git checkout -b <branch name>`
+    git checkout <branch name>
+
+Create a new branch (feature branch):
+
+    git checkout -b <branch name>
 
 Retrieve latest changes from master:  
+Checkout master branch, then run the  following command
 
-Checkout master branch then run: `git pull origin master` 
+    git pull origin master
 
 Push a local branch up to Github:
-`git push origin <branch name>`
+
+    git push origin <branch name>
 
 Delete a branch:
-`git branch -D <branch name>`
+
+    git branch -D <branch name>
+
+Stashing changes:
+Stashing temporarily stores any changes you haven't commited.
+
+    git stash
+
+Unstashing allows you to re-apply your changes to the current branch (does not affect other branches)
+
+    git stash pop
+
+
 
 
 
