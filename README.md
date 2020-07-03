@@ -2,6 +2,14 @@
 Helpful cheat sheat for git commands
 
 ## Terminal Commands
+Stage all changes (aka the step before commit):
+
+    git add .
+
+Commit your staged changes
+
+    git commit -m "<a good commit message>"
+
 Switch to a new branch: 
 
     git checkout <branch name>
