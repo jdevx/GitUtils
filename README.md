@@ -2,10 +2,10 @@
 Helpful cheat sheat for git commands
 
 ## Terminal Commands
-**Retrieve latest changes from remote master (GitHub):**  
-Checkout master branch, then run the  following command
+**Retrieve latest changes from remote main (GitHub):**  
+Checkout main branch, then run the  following command
 
-    git pull origin master
+    git pull
 
 **Create a new branch (feature branch):**
 
